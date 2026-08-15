@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW GCC",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "D:\\mingw-v13\\x86_64-15.2.0-release-win32-seh-msvcrt-rt_v13-rev0\\mingw64\\bin\\gcc.exe",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Lib/SFML-2.6.1/include"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

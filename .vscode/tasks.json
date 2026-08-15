@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "编译SFML游戏",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-Wall",
+                "-Wextra",
+                "-g3",
+                "${workspaceFolder}/*.cpp",
+                "-o",
+                "${workspaceFolder}/output/Planewar.exe",
+                "-I", "D:/Lib/SFML-2.6.1/include",
+                "-L", "D:/Lib/SFML-2.6.1/lib",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                "-lsfml-audio"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

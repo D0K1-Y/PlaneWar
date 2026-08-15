@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\SFML_Project.dir/objects.a
+D:\mingw-v13\x86_64-15.2.0-release-win32-seh-msvcrt-rt_v13-rev0\mingw64\bin\ar.exe qc CMakeFiles\SFML_Project.dir/objects.a @CMakeFiles\SFML_Project.dir\objects1.rsp
+D:\mingw-v13\x86_64-15.2.0-release-win32-seh-msvcrt-rt_v13-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\SFML_Project.dir/objects.a -Wl,--no-whole-archive -o SFML_Project.exe -Wl,--out-implib,libSFML_Project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SFML_Project.dir\linkLibs.rsp

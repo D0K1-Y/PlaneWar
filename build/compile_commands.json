@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/cpp_projects/PlaneWar/build",
+  "command": "D:\\mingw-v13\\x86_64-15.2.0-release-win32-seh-msvcrt-rt_v13-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles\\SFML_Project.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\SFML_Project.dir\\src\\main.cpp.obj -c D:\\cpp_projects\\PlaneWar\\src\\main.cpp",
+  "file": "D:/cpp_projects/PlaneWar/src/main.cpp",
+  "output": "CMakeFiles/SFML_Project.dir/src/main.cpp.obj"
+}
+]

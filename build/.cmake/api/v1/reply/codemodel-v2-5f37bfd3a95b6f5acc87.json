@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FLAC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FLAC-Debug-7a3a6f54d3c9f2c0e325.json",
+					"name" : "FLAC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Freetype::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Freetype-Debug-625ba2858c33e2d8d218.json",
+					"name" : "Freetype",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenAL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenAL-Debug-951437406d033a35a4b2.json",
+					"name" : "OpenAL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL-Debug-2505c988acdb6e514d9d.json",
+					"name" : "OpenGL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VORBIS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VORBIS-Debug-3df6ba154daec76581a4.json",
+					"name" : "VORBIS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfml-audio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfml-audio-Debug-68d2d63fc42fe7f82dcb.json",
+					"name" : "sfml-audio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfml-graphics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfml-graphics-Debug-76e95da58fadcbef9660.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfml-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfml-main-Debug-a09f5e8da63afaeff17e.json",
+					"name" : "sfml-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfml-network::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfml-network-Debug-84d4de4103e58736090a.json",
+					"name" : "sfml-network",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfml-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfml-system-Debug-a3a7a7daf904c27d8088.json",
+					"name" : "sfml-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfml-window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfml-window-Debug-6383844f03a3f4a92112.json",
+					"name" : "sfml-window",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SFML_Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML_Project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML_Project-Debug-99cc55390d581e6a8142.json",
+					"name" : "SFML_Project",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/cpp_projects/PlaneWar/build",
+		"source" : "D:/cpp_projects/PlaneWar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

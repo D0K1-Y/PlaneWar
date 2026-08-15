@@ -1,0 +1,3 @@
+D:/cpp_projects/PlaneWar/build/CMakeFiles/SFML_Project.dir
+D:/cpp_projects/PlaneWar/build/CMakeFiles/edit_cache.dir
+D:/cpp_projects/PlaneWar/build/CMakeFiles/rebuild_cache.dir
