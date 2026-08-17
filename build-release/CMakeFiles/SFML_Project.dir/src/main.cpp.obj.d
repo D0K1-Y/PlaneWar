@@ -253,9 +253,13 @@ CMakeFiles/SFML_Project.dir/src/main.cpp.obj: \
  D:/cpp_projects/PlaneWar/include/Game.hpp \
  D:/cpp_projects/PlaneWar/include/Enemy.hpp \
  D:/cpp_projects/PlaneWar/include/Hp.hpp \
+ D:/cpp_projects/PlaneWar/include/Gamestate.hpp \
+ D:/cpp_projects/PlaneWar/include/Gameset.hpp \
+ D:/cpp_projects/PlaneWar/include/Score.hpp \
  D:/cpp_projects/PlaneWar/include/Bullet.hpp \
  D:/cpp_projects/PlaneWar/include/Collision.hpp \
- D:/cpp_projects/PlaneWar/include/Score.hpp \
  D:/cpp_projects/PlaneWar/include/Boss.hpp \
  D:/cpp_projects/PlaneWar/include/BossBullet.hpp \
- D:/cpp_projects/PlaneWar/include/Gamestate.hpp
+ D:/cpp_projects/PlaneWar/include/Menu.hpp \
+ D:/cpp_projects/PlaneWar/include/Button.hpp \
+ D:/cpp_projects/PlaneWar/include/Gamereset.hpp

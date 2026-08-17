@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <string>
 #include "Resource.hpp"
+#include "Gamestate.hpp"
 
 
 int HP = 100;
@@ -17,7 +18,7 @@ void initHP()
 
     HpText.setCharacterSize(40);
 
-    HpText.setColor(sf::Color::Green);
+    HpText.setFillColor(sf::Color::Green);
 
     HpText.setPosition(300, 20);
 
@@ -33,6 +34,8 @@ void updateHP(int value)
         playerAlive = false;
 
         gameOver = true;
+
+        gameState = GameState::GAME_OVER;
     }
     else
     {

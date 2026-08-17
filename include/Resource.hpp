@@ -4,9 +4,10 @@
 #include <iostream>
 #include <vector>
 
-std::vector<sf::Texture> img(6);
+std::vector<sf::Texture> img(7);
 sf::Sprite bgSprite; //背景
 sf::Sprite ourPlaneSprite; //我方飞机
+sf::Sprite Menubg;
 
 sf::Font font;
 
@@ -72,5 +73,21 @@ void init()
 
     if (!img[5].loadFromFile("image/BossBullet.png")) {
         std::cerr << "错误：无法加载Boss子弹！" << std::endl;
+    }
+
+    if (!img[6].loadFromFile("image/Menubg.png")) {
+        std::cerr << "错误：无法加载背景！" << std::endl;
+    }else {
+        Menubg.setTexture(img[6]);
+
+        //获取纹理的原始像素尺寸
+        sf::Vector2u textureSize = img[6].getSize();
+        if (textureSize.x != 0 && textureSize.y != 0) {
+            float scaleX = (float)WINDOW_WIDTH / textureSize.x;
+            float scaleY = (float)WINDOW_HEIGHT / textureSize.y;
+            Menubg.setScale(scaleX, scaleY);
+        }else {
+            std::cerr << "错误：读取失败！" << std::endl;
+        }
     }
 }

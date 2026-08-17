@@ -5,6 +5,7 @@
 #include "Resource.hpp"
 #include "Score.hpp"
 #include <string>
+#include "Gameset.hpp"
 
 
 bool bossSpawned = false;
@@ -138,6 +139,8 @@ void updateBossHP(int value)
         gameOver = true;
 
         gameWin = true;
+
+        gameState = GameState::GAME_OVER;
     }
     else
     {
